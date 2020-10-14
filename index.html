@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vindictus enhancement Simulator</title>
+	<style>
+body {background-color: #1c1a1a;color: #b0b0b0;}
+button {background-color: #363434;color:#b0b0b0;display: block;width: 100%;height: 300px;}
+
+</style>
+</head>
+<body>
+<h1>Vindictus enhancement Simulator</h1>
+<p id="level"><h1></h1></p>
+<button onclick="enhance()" type="button">Enhance!</button>
+
+<script>
+	var level = 1;
+	function enhance() {
+document.getElementById("level").innerHTML = "<h1>Current weapon level: " + level + "</h1>" ;
+var random = Math.floor(Math.random() * 100);
+switch(level){
+	case 1: level++;
+	break;
+	case 2: level++;
+	break;
+	case 3: if(random>-1 && random<91)
+	{level++}
+	else
+	{
+		level=1;
+	}
+	break;
+	case 4: if(random>-1 && random<91)
+	{level++}
+	else
+	{
+		level=1;
+	}
+	break;
+	case 5: if(random>-1 && random<81)
+	{level++}
+	else
+	{
+		level=1;
+	}
+	break;
+	case 6: if(random>-1 && random<71)
+	{level++}
+	else
+	{
+		level=1;
+	}
+	break;
+	case 7: if(random>-1 && random<61)
+	{level++}
+	else
+	{
+		level=1;
+	}
+	break;
+	case 8: if(random>-1 && random<56)
+	{level++}
+	else
+	{
+		level=1;
+	}
+	break;
+	case 9: if(random>-1 && random<51)
+	{level++}
+	else
+	{
+		level=1;
+	}
+	break;
+	case 10: if(random>-1 && random<46)
+	{level++}
+	else
+	{
+		level=1;
+	}
+	break;
+	case 11: if(random>-1 && random<41)
+	{level++}
+	else
+	{
+		level=1;
+	}
+	break;
+	case 12: if(random>-1 && random<21)
+	{level++}
+	else
+	{
+		level=1;
+	}
+	break;
+	case 13: if(random>-1 && random<17)
+	{level++}
+	else
+	{
+		level=1;
+	}
+	break;
+	case 14: if(random>-1 && random<16)
+	{level++}
+	else
+	{
+		level=1;
+	}
+	break;
+	case 15: if(random>-1 && random<15)
+	{level++}
+	else
+	{
+		level=1;
+	}
+	break;
+	case 16: if(random>-1 && random<14)
+	{level++}
+	else
+	{
+		level=1;
+	}
+	break;
+	case 17: if(random>-1 && random<11)
+	{level++}
+	else
+	{
+		level=1;
+	}
+	break;
+	case 18: if(random>-1 && random<9)
+	{level++}
+	else
+	{
+		level=1;
+	}
+	break;
+	case 19: if(random>-1 && random<2)
+	{level++}
+	else
+	{
+		level=1;
+	}
+	break;
+}
+}
+</script>
+</body>
+</html>
